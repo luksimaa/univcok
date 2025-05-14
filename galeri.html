@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>Galeri Kenangan</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body{
+            background: #f8f8f8;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            transition: background 0.3s, color 0.3s;
+        }
+        header {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        section {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .gallery{
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+        .gallery img{
+            margin-top: 12px;
+        }
+        .row::after{
+        content: "";
+        display: table;
+        clear: both;
+        }
+        @media screen and (max-width: 800px){
+        .gallery{
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+        }
+        }
+        @media screen and (max-width: 600px){
+        .gallery {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+        }
+        
+    .icon {
+    font-size: 38px; /* Ukuran ikon */
+    color: #E4405F; /* Warna Instagram */
+    text-decoration: none; /* Hilangkan underline */
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease; /* Efek hover */
+    
+  }
+  .whatsapp {
+    font-size: 38px; /* Ukuran ikon */
+    color:#128c7e ; /* Warna Instagram */
+    text-decoration: none; /* Hilangkan underline */
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease; /* Efek hover */
+    
+  }
+  .icon:hover {
+    color: #d32e57; /* Warna saat hover */
+    transform: scale(1.2); /* Perbesar ikon saat hover */
+    }
+   .whatsapp:hover {
+    color:  #075e54; /* Warna saat hover */
+    transform: scale(1.2); /* Perbesar ikon saat hover */
+  }
+  a.icon{
+    float: left;
+  }
+  a.whatsapp{
+    float: right;
+  }
+
+   nav {
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #1d6fa5;
+        }
+
+    </style>
+</head>
+<body>
+    <header>SELAMAT DATANG</header>
+    <section>
+        <nav>
+            <a href="./">Beranda</a>
+        </nav>
+        
+        <p style="font-size: large;">ini adalah web yang menampilkan foto-foto kenangan</p>
+    </section>
+    <div class="row">
+    <div class="gallery">
+        <img src="fotonew/wa (1).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (10).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (11).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (12).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (43).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (22).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (36).jpg" alt="Dani" style="width: 100%;">
+    </div>
+    <div class="gallery">
+        <img src="fotonew/wa (15).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (33).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (17).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (23).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (19).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (2).jpg" alt="Dani" style="width: 100%;">
+    </div>
+    <div class="gallery">
+        <img src="fotonew/wa (26).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (21).jpg" alt="Dani" style="width: 100%;">
+       
+    </div>
+    <div class="gallery">
+        <img src="fotonew/wa (32).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (27).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (35).jpg" alt="Dani" style="width: 100%;">
+        
+        <img src="fotonew/wa (3).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (30).jpg" alt="Dani" style="width: 100%;">
+    </div>
+    <div class="gallery">
+        <img src="fotonew/wa (31).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (20).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (16).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (34).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (28).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (18).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (29).jpg" alt="Dani" style="width: 100%;">
+    </div>
+    <div class="gallery">
+        <img src="fotonew/wa (37).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (38).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (14).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (4).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (41).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (9).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/IMG_8996.jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/new6.jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/new7.jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/new8.jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/new9.jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/new12.jpg" alt="Dani" style="width: 100%;">
+    </div>
+    <div class="gallery">
+        <img src="fotonew/wa (13).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (5).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (6).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (7).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (8).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (42).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (40).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (39).jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/wa (24).jpg" alt="Dani" style="width: 100%;">
+    </div>
+    <div class="gallery">
+        <img src="fotonew/new1.jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/new2.jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/new3.jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/new4.jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/new5.jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/new10.jpg" alt="Dani" style="width: 100%;">
+        <img src="fotonew/new11.jpg" alt="Dani" style="width: 100%;">
+    </div>
+    <div class="gallery">
+       
+      
+    </div>
+</div>
+<footer>
+    
+    <a href="https://www.instagram.com/danfrd_" class="icon" target="_blank" rel="noopener noreferrer" >
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://wa.me/62895341648834" class="whatsapp" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    &copy; 2025 Danii 
+</footer>
+</body>
+</html>
